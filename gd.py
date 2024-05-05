@@ -2,15 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def read_data(filename):
-  """
-  Reads data from a text file with header, tab-separated values.
-
-  Args:
-      filename: The name of the text file.
-
-  Returns:
-      A tuple containing two NumPy arrays: features (x) and target values (y).
-  """
   with open(filename, 'r') as f:
     # Skip header
     next(f)
