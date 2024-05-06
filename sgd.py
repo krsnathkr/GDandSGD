@@ -72,3 +72,4 @@ plt.show()
 print(f'Final Weights: {weights}')
 print(f'Final Loss: {losses[-1]}')
 
+print(len(weights))

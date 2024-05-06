@@ -11,7 +11,6 @@ def read_data(filename):
   y = np.array([float(line.strip().split('\t')[-1]) for line in lines])
   return x, y
 
-
 def gradient_descent(x, y, learning_rate=0.01, epochs=100):
   """
   Performs gradient descent to update feature weights.
